@@ -1,4 +1,4 @@
-baseurl                  = "marlongrunden.netlify.app"           # Your domain name
+baseurl                  = "https://marlongrunden.netlify.app"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
