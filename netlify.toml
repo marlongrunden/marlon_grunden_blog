@@ -6,7 +6,6 @@ command = "hugo --gc --minify"
 HUGO_VERSION = "0.76.5"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-NPM_FLAGS = "-g"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
@@ -14,22 +13,20 @@ command = "hugo --gc --minify --enableGitInfo"
 [context.split1.environment]
 HUGO_VERSION = "0.76.5"
 HUGO_ENV = "production"
-NPM_FLAGS = "-g"
+
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.76.5"
-NPM_FLAGS = "-g"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.76.5"
-NPM_FLAGS = "-g"
+
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-NPM_FLAGS = "-g"
