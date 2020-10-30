@@ -40,10 +40,9 @@ pygmentsCodefences       = true
     link = "contact"
     text = "Contact"
 
-[[params.mainMenu]]
-    link = "blog"
-    text = "Blog"
-
+#[[params.mainMenu]]
+#    link = "blog"
+#    text = "Blog"
 
 
 [imaging]
