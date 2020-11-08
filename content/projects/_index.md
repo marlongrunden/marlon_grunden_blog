@@ -1,4 +1,5 @@
 ---
+title: "Projects"
 type: "folio"
 url: "/Projects"
 maxWidth: "800x"

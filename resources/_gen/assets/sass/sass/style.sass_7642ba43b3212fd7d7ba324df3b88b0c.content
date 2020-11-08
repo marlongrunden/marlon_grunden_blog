@@ -88,7 +88,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: centerx; }
 
 .bottom-menu {
   display: flex;
@@ -226,8 +226,8 @@ article {
   margin: 1em auto;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-auto-rows: 400px; }
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 250px; }
   @media screen and (max-width: 736px) {
     .grid {
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); } }
@@ -252,7 +252,11 @@ article {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  opacity: 1; }
+  opacity: 1;
+  transition: .3s ease-in-out; }
+
+.grid > div > a > img:hover {
+  opacity: 0.4; }
 
 .video {
   position: fixed;
