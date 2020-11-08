@@ -37,6 +37,10 @@ googleAnalytics  = "UA-181752118-1"                               # Tracking cod
     text = "Listen"
 
 [[params.mainMenu]]
+    link = "projects"
+    text = "Projects"
+
+[[params.mainMenu]]
     link = "contact"
     text = "Contact"
 
