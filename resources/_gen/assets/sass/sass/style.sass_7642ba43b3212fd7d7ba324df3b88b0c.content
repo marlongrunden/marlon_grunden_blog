@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 html {
-  background-color: #39424E;
+  background-color: #000000;
   font-family: "Didact Gothic", "sans serif";
   font-size: 16px; }
 
@@ -23,7 +23,8 @@ body {
   opacity: 1; }
 
 header {
-  padding: 6em 1em 1em 0; }
+  padding: 6em 1em 1em 0;
+  align-items: center; }
   @media screen and (max-width: 736px) {
     header {
       padding: 3em 0; } }
@@ -87,7 +88,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; }
+  align-items: center; }
 
 .bottom-menu {
   display: flex;
@@ -173,7 +174,7 @@ article {
     opacity: 1; }
   article blockquote {
     background-color: #cccccc;
-    color: #39424E;
+    color: #000000;
     padding: 2rem;
     margin: 2rem 1rem 2rem 1rem;
     border-radius: 3px; }
