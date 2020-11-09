@@ -28,21 +28,24 @@ googleAnalytics  = "UA-181752118-1"                               # Tracking cod
 [params.videoBackground]
     overlay = "rgba(0, 0, 0, 0.4)" # optional
 
+
 [[params.mainMenu]]
     link = "about"
     text = "Marlon Grunden"
 
 [[params.mainMenu]]
+    link = "composer"
+    text = "Composer"
+
+[[params.mainMenu]]
+    link = "producer"
+    text = "Producer"
+
+[[params.mainMenu]]
     link = "listen"
     text = "Listen"
 
-[[params.mainMenu]]
-    link = "projects"
-    text = "Projects"
 
-[[params.mainMenu]]
-    link = "contact"
-    text = "Contact"
 
 #[[params.mainMenu]]
 #    link = "blog"

@@ -31,7 +31,8 @@ header {
 h1, h2, h3 {
   margin-bottom: 0.5em;
   font-family: 'Didact Gothic', sans-serif;
-  opacity: 0.6; }
+  opacity: 0.6;
+  text-align: center; }
 
 li {
   opacity: 0.8; }
@@ -228,7 +229,8 @@ article {
   grid-template-columns: auto 350px auto;
   grid-template-rows: 100px;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+  align-text: center; }
 
 .grid {
   margin: 1em auto;
