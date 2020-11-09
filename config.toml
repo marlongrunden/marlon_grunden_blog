@@ -17,7 +17,7 @@ googleAnalytics  = "UA-181752118-1"                               # Tracking cod
 
 # Metadata for Open Graph and Twitter
     description          = "Marlon Grunden // Composer // Producer // Engineer"               # Max 160 characters show in search results
-    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    images               = ["title-page.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
     title                = "Marlon Grunden // Composer"
     # rss                = ""
 
