@@ -33,13 +33,13 @@ googleAnalytics  = "UA-181752118-1"                               # Tracking cod
     link = "about"
     text = "Marlon Grunden"
 
-[[params.mainMenu]]
-    link = "composer"
-    text = "Composer"
+#[[params.mainMenu]]
+    #link = "projects"
+    #text = "Projects"
 
 [[params.mainMenu]]
-    link = "producer"
-    text = "Producer"
+    link = "contact"
+    text = "Contact"
 
 [[params.mainMenu]]
     link = "listen"
